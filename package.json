@@ -5,10 +5,16 @@
   "main": "index.js",
   "devDependencies": {
     "mocha": "*",
-    "chai": "*"
+    "chai": "*",
+    "chai-http": "*",
+    "supertest": "*",
+    "express": "*",
+    "joi": "*",
+    "nodemon": "*",
+    "body-parser": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

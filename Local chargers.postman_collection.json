@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "c2cde7ef-82b5-4814-b716-26f1ebd298b9",
+		"name": "Local chargers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get local chargers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chargers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chargers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create charger",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"model\": \"J1772\",\r\n\t\"level\": 1,\r\n\t\"norm\": \"China\",\r\n\t\"type\": \"AC\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chargers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chargers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change charger parameter",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\": \"J1772\",\r\n    \"level\": 3,\r\n    \"norm\": \"North America\",\r\n    \"type\": \"AC\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chargers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chargers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch charger",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\": \"GB/T\",\r\n    \"level\": 3,\r\n    \"norm\": \"North America\",\r\n    \"type\": \"DC\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/chargers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chargers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete chargers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/chargers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"chargers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

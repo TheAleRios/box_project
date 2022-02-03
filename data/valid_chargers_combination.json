@@ -1,0 +1,7 @@
+{ 
+        
+    "id": 1,    
+    "model":"J1772", 
+    "level": 1,
+    "norm":"North America",
+    "type":"AC" }

@@ -1,0 +1,7 @@
+
+    { 
+           
+    "model":"J1772", 
+    "level": 2,
+    "norm":"North America",
+    "type":"DC" }

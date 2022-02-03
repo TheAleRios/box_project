@@ -1,0 +1,25 @@
+[
+    { 
+        
+    "id": 1,    
+    "model":"J1772", 
+    "level": 1,
+    "norm":"North America",
+    "type":"AC" },
+
+    { 
+        
+        "id": 2,    
+        "model":"Mennekes", 
+        "level": 3,
+        "norm":"Eu",
+        "type":"AC" },
+
+        { 
+        
+            "id": 3,    
+            "model":"CCS1", 
+            "level": 3,
+            "norm":"North America",
+            "type":"DC" }
+]

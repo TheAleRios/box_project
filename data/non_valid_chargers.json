@@ -1,0 +1,25 @@
+[
+    { 
+        
+    "id": 1,    
+    "model":"non_valid_model", 
+    "level": 999,
+    "norm":"Non valid norm",
+    "type":"Non valid type" },
+
+    { 
+        
+        "id": 2,    
+        "model":"non_valid_model", 
+        "level": 999,
+        "norm":"Non valid norm",
+        "type":"Non valid type" },
+
+        { 
+        
+            "id": 3,    
+            "model":"non_valid_model", 
+            "level": 999,
+            "norm":"Non valid norm",
+            "type":"Non valid type" }
+]
